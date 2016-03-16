@@ -1,0 +1,37 @@
+<div ng-controller="registrationCtrl">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" ng-model="user.email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="firstName">first Name</label>
+            <input type="text" class="form-control" id="firstName" ng-model="user.firstName" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">last Name</label>
+            <input type="text" class="form-control" id="lastName" ng-model="user.lastName" placeholder="Last Name">
+        </div>
+        <div class="form-group">
+            <label for="mobile">mobile </label>
+            <input type="text" class="form-control" id="mobile" ng-model="user.mobile" placeholder="Mobile">
+        </div>
+        <div class="form-group">
+            <label for="referredBy">referred by </label>
+            <input type="text" class="form-control" id="referredBy" ng-model="user.referredBy" placeholder="referred by">
+        </div>
+        <div class="form-group">
+            <label for="referredBy"> Age Group </label>
+            <select class="form-control" ng-model="user.ageGroup" >
+                <option value="1-3">1-3</option>
+                <option value="3-5">3-5</option>
+                <option value="5-8">5-8</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" ng-model="user.password" placeholder="Password">
+        </div>
+        <button  class="btn btn-default" ng-click="register()" >Register</button>
+    </form>
+</div>

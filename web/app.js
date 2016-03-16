@@ -1,26 +1,53 @@
 /**
  * Created by rajanchaudhary on 3/9/16.
  */
-var inventory = angular.module('inventory', [ 'restangular']);
-inventory.factory('hlRestangular', ['Restangular', function (Restangular) {
+var parentOf = angular.module('parentOf', [ 'restangular']);
+
+parentOf.factory('hlRestangular', ['Restangular', function (Restangular) {
     return Restangular.withConfig(function (RestangularConfigurer) {
-        RestangularConfigurer.setBaseUrl("http://localhost:3007");
+        RestangularConfigurer.setBaseUrl("http://localhost:3009");
         RestangularConfigurer.setDefaultHttpFields({
             timeout: 15000
         });
     });
 }]);
-inventory.controller('mainCtrl',function ($scope) {
-    $scope.url = ""
-})
-inventory.controller('addPurchaseOrderCtrl', function ($scope, hlRestangular) {
-    hlRestangular.one("item").get({}).then(function (res) {
-        console.log(res)
-        $scope.items = res.data;
+
+parentOf.controller('mainCtrl',function ($scope) {
+    $scope.url = "register.html"
+    $scope.$on('redirect', function(e, u){
+        console.log('redirect')
+        $scope.url = u;
     })
 })
 
-inventory.controller('listPoCtrl', function ($scope, hlRestangular) {
+parentOf.controller('registrationCtrl', function ($scope, hlRestangular) {
+    $scope.user  = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        mobile: '',
+        referredBy: '',
+        password: '',
+        ageGroup: ''
+    }
+    $scope.register = function () {
+        hlRestangular.one("user").one('register').customPOST({user: $scope.user}).then(function (res) {
+           console.log(res)
+        })
+    }
+})
+parentOf.controller('loginCtrl', function ($scope, hlRestangular) {
+    $scope.user  = {
+        email: '',
+        password: ''
+    }
+    $scope.register = function () {
+        hlRestangular.one("user").one('login').customPOST({user: $scope.user}).then(function (res) {
+            console.log(res)
+        })
+    }
+})
+parentOf.controller('listPoCtrl', function ($scope, hlRestangular) {
     hlRestangular.one('')
 })
 
