@@ -13,6 +13,7 @@ var user = new Schema({
     password: String,
     ageGroup: String,
     isActivated: String,
+    resultLink: String,
     createdDate: {
         type: Date,
         default: Date.now

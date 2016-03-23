@@ -7,8 +7,8 @@ module.exports = function (app) {
         next();
     });
 
-    app.get('/user', item.get);
-    app.post('/user', item.post);
+    app.get('/user', user.get);
+    app.post('/user/register', user.register);
 
 
 };

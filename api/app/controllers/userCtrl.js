@@ -17,13 +17,22 @@ exports.get = function (req, res) {
 
 exports.register = function (req, res) {
     var user = new User(req.body.user);
-    user.save(function(err){
-        if (err) {
-            res.error(err);
-        } else {
-            res.success(user);
+    User.find({email: req.body.user.email}, function(err, data){
+        console.log(data.length > 0)
+        if(data.length == 0){
+            user.save(function(err){
+                if (err) {
+                    res.error(err);
+                } else {
+                    res.success(user);
+                }
+            })
+        }
+        else{
+            res.error("user already exist");
         }
     })
+
 }
 
 exports.login = function (req, res) {
