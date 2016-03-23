@@ -41,13 +41,33 @@ parentOf.controller('loginCtrl', function ($scope, hlRestangular) {
         email: '',
         password: ''
     }
-    $scope.register = function () {
-        hlRestangular.one("user").one('login').customPOST({user: $scope.user}).then(function (res) {
+    $scope.login = function () {
+        hlRestangular.one("user").one('login').customPOST($scope.user).then(function (res) {
             console.log(res)
         })
     }
 })
-parentOf.controller('listPoCtrl', function ($scope, hlRestangular) {
-    hlRestangular.one('')
+
+parentOf.controller('questionsCtrl', function($scope){
+    $scope.questions = [
+        {"question": "Which is largest",
+            "options": [1,2,3,4,5],
+            'answer': ''
+        },
+        {"question": "Which is largest",
+            "options": [2,3,4,5,6],
+            "answer":''
+        },
+        {"question": "Which is largest",
+            "options": [2,3,4,5,6],
+            "answer":''
+        }
+    ]
+
+    $scope.submit = function(){
+        console.log($scope.questions)
+    }
+
 })
+
 
