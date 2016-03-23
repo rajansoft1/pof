@@ -24,7 +24,7 @@ exports.register = function (req, res) {
                 if (err) {
                     res.error(err);
                 } else {
-                    res.success(user);
+                    sendMail(user, res)
                 }
             })
         }
@@ -129,12 +129,30 @@ var sendMail = function(recipient, res){
         }
     });
 
+    var template = 
+"\
+Dear "+recipient.firstName+",\
+\
+We are excited to have you onboard our community. \
+\
+To complete your registration, please click the following link:\
+\
+"+recipient.resultLink+"\
+\
+If the above link/button does not work, please use your Web browser to go to:\
+\
+"+recipient.resultLink+"\
+\
+Your Username is: "+recipient.email+"\
+\
+Your friends at Parentof\
+"
+
     var mailOptions = {
         from: config.username, // sender address
         to: recipient, // list of receivers
-        subject: 'Hello ✔', // Subject line
-        text: 'Hello world 🐴', // plaintext body
-        html: '<b>Hello world 🐴</b>' // html body
+        subject: 'Please activate your Parentof account', // Subject line
+        text: template, // plaintext body
     };
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
@@ -143,3 +161,4 @@ var sendMail = function(recipient, res){
         res.success('Message sent: ' + info.response);
     });
 }
+
