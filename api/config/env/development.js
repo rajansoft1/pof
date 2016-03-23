@@ -2,6 +2,7 @@ module.exports = {
     // Development configuration options
     sessionSecret: 'inventory',
     db: 'mongodb://localhost/parentof-dev',
+    postActivation: 'http://localhost:8080/#login',
     log: {
         // Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
         format: 'dev',

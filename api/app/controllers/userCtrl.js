@@ -3,7 +3,7 @@
  */
 
 var User = require('mongoose').model('user');
-
+var Config = require('../../config/config')
 exports.get = function (req, res) {
     Item.find({}, {sort: {sku: 1}}, function(err, data){
         if (err) {
@@ -68,6 +68,21 @@ exports.submitAnswers = function(req, res){
                   res.success(data)
               }
             })
+        }
+    })
+}
+exports.activate = function(req, res){
+    var id = req.params.token;
+    User.findOne({_id: id}, function (err, data) {
+        if(err){
+            res.error("account with given email not found")
+        }
+        else{
+            res.writeHead(302, {
+                'Location': Config.postActivation
+                //add other headers here...
+            });
+            res.end();
         }
     })
 }
