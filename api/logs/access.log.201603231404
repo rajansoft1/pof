@@ -1,0 +1,4 @@
+::1 - - [Wed, 23 Mar 2016 08:34:43 GMT] "GET /user/rajansoft1132@gmail.com HTTP/1.1" 404 41 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"
+::1 - - [Wed, 23 Mar 2016 08:34:43 GMT] "GET /user/rajansoft1132@gmail.com HTTP/1.1" 404 41 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"
+::1 - - [Wed, 23 Mar 2016 08:34:47 GMT] "GET /user/rajansoft1132@gmail.com HTTP/1.1" 404 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"
+::1 - - [Wed, 23 Mar 2016 08:34:47 GMT] "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3009/user/rajansoft1132@gmail.com" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"

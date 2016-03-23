@@ -136,7 +136,8 @@ parentOf.controller('questionsCtrl', function($scope, hlRestangular, localStorag
             "answer":''
         }
     ]
-    hlRestangular.one(user).customGET({id: localStorageService.get() })
+
+    hlRestangular.one('user').customGET(localStorageService.get('user').email)
 
     $scope.submit = function(){
         console.log($scope.questions)

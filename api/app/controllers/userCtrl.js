@@ -73,9 +73,10 @@ exports.submitAnswers = function(req, res){
 }
 
 exports.getUserByEmail = function (req, res) {
-    var email = req.body.email;
+    var email = req.params.email;
+    console.log(email)
     User.findOne({email: email}, function (err, data) {
-        if(!err){
+        if(err){
             res.error("account with given email not found")
         }
         else{
@@ -83,7 +84,22 @@ exports.getUserByEmail = function (req, res) {
         }
     })
 }
-
+exports.updateResultToken = function(req, res){
+    var email = req.params.email;
+    var token = req.params.token;
+    console.log(email)
+    User.findOne({email: email}, function (err, data) {
+        if(err){
+            res.error("account with given email not found")
+        }
+        else{
+            data.resultLink = token;
+            data.save(function(rs){
+                res.success(data)
+            })
+        }
+    })
+}
 var sendMail = function(recipient, res){
     //var transporter = nodemailer.createTransport('smtps://"online@homelane.com:Homevista12@smtp.gmail.com');
     var transporter = nodeMailer.createTransport({

@@ -8,6 +8,8 @@ module.exports = function (app) {
     });
 
     app.get('/user', user.get);
+    app.get('/user/:email', user.getUserByEmail);
+    app.get('/user/:email/:token', user.updateResultToken);
     app.post('/user/register', user.register);
 
 
