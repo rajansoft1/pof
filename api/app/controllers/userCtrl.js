@@ -14,6 +14,9 @@ exports.get = function (req, res) {
         }
     });
 }
+exports.refer = function(req, res){
+
+}
 
 exports.register = function (req, res) {
     var user = new User(req.body.user);

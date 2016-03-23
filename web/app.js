@@ -23,7 +23,11 @@ parentOf.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'register.html',
             controller: 'registrationCtrl'
         })
-
+        .state('refer', {
+            url: '/refer',
+            templateUrl: 'refer.html',
+            controller: 'referCtrl'
+        })
         // Home screen
         .state('home', {
             url: '/home',
@@ -36,6 +40,7 @@ parentOf.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'activate.html',
             controller: 'activateCtrl'
         })
+
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/home');
 
@@ -119,6 +124,20 @@ parentOf.controller('loginCtrl', function ($scope, hlRestangular) {
             console.log(res)
         })
     }
+})
+
+parentOf.controller('referCtrl',function($scope, hlRestangular, localStorageService, $state){
+    $scope.contacts = []
+    $scope.addEmail = function(){
+        $scope.contacts.push({email: '', name: ''})
+    }
+    $scope.save = function(){
+        hlRestangular.one('refer').customPOST({contacts:$scope.contacts, email: localStorageService.get('user').email}).then(function(){
+            notify('Referral sent')
+            $state.go('home')
+        })
+    }
+    $scope.addEmail();
 })
 
 parentOf.controller('questionsCtrl', function($scope, hlRestangular, localStorageService){
