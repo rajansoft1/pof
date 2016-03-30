@@ -13,32 +13,37 @@ parentOf.config(function($stateProvider, $urlRouterProvider) {
         // login screen
         .state('login', {
             url: '/login',
-            templateUrl: 'login.html',
+            templateUrl: 'app/views/login.html',
             controller: 'loginCtrl'
         })
 
         // register screen
         .state('register', {
             url: '/register',
-            templateUrl: 'register.html',
+            templateUrl: 'app/views/register.html',
             controller: 'registrationCtrl'
         })
         .state('refer', {
             url: '/refer',
-            templateUrl: 'refer.html',
+            templateUrl: 'app/views/refer.html',
             controller: 'referCtrl'
         })
         // Home screen
         .state('home', {
             url: '/home',
-            templateUrl: 'question.html',
+            templateUrl: 'app/views/question.html',
             controller: 'questionsCtrl'
         })
 
         .state('activate', {
             url: '/activate',
-            templateUrl: 'activate.html',
+            templateUrl: 'app/views/activate.html',
             controller: 'activateCtrl'
+        })
+        .state('about', {
+            url: '/about',
+            templateUrl: 'app/views/landingpage-01.html',
+            controller: 'aboutCtrl'
         })
 
     // if none of the above states are matched, use this as the fallback
@@ -83,7 +88,7 @@ parentOf.controller('activateCtrl',function ($scope) {
 })
 
 parentOf.controller('mainCtrl',function ($scope) {
-    $scope.url = "register.html"
+    $scope.url = "app/views/about.html"
     $scope.$on('redirect', function(e, u){
         //console.log('redirect')
         $scope.url = u;
