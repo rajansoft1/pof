@@ -15,7 +15,43 @@ exports.get = function (req, res) {
     });
 }
 exports.refer = function(req, res){
-
+    var template = "\
+Referral Page Content\ 
+\
+Refer a friend!\
+\
+Parentof began with the simple question – How can we make a parent’s life easier? Our vision \
+\
+became simpler with each person who joined our community, and shared their inputs after using \
+\
+our platform.\
+\
+Help us in our vision to Simplify Parenting!\
+\
+Refer us to your friends, and let them know how you feel about Parentof. Each person who joins our \
+\
+community adds to our research and helps us to bring better parenting insights to you!\
+\
+To share Parentof with your friends, click the options below – \
+\
+{FB Share}\
+\
+{Twitter Share}\
+\
+{Whatsapp Share}\
+\
+{Linkedin Share}\
+\
+{Email Share}\
+"
+    var mailOptions = {
+        from: config.username, // sender address
+        to: req.email, // list of receivers
+        cc: req.contacts.getKey('email'),
+        subject: 'Please activate your Parentof account', // Subject line
+        text: template, // plaintext body
+    };
+    sendMail(mailOptions, res)
 }
 
 exports.register = function (req, res) {
@@ -27,7 +63,31 @@ exports.register = function (req, res) {
                 if (err) {
                     res.error(err);
                 } else {
-                    sendMail(user, res)
+                    var template = 
+"\
+Dear "+user.firstName+",\
+\
+We are excited to have you onboard our community. \
+\
+To complete your registration, please click the following link:\
+\
+"+user.resultLink+"\
+\
+If the above link/button does not work, please use your Web browser to go to:\
+\
+"+user.resultLink+"\
+\
+Your Username is: "+user.email+"\
+\
+Your friends at Parentof\
+"
+                    var mailOptions = {
+                        from: config.username, // sender address
+                        to: user.email, // list of receivers
+                        subject: 'Please activate your Parentof account', // Subject line
+                        text: template, // plaintext body
+                    };
+                    sendMail(mailOptions, res)
                 }
             })
         }
@@ -118,7 +178,8 @@ exports.updateResultToken = function(req, res){
         }
     })
 }
-var sendMail = function(recipient, res){
+
+var sendMail = function(mailOptions, res){
     //var transporter = nodemailer.createTransport('smtps://"online@homelane.com:Homevista12@smtp.gmail.com');
     var transporter = nodeMailer.createTransport({
         service: 'Gmail',
@@ -131,32 +192,7 @@ var sendMail = function(recipient, res){
             pass: config.password
         }
     });
-
-    var template = 
-"\
-Dear "+recipient.firstName+",\
-\
-We are excited to have you onboard our community. \
-\
-To complete your registration, please click the following link:\
-\
-"+recipient.resultLink+"\
-\
-If the above link/button does not work, please use your Web browser to go to:\
-\
-"+recipient.resultLink+"\
-\
-Your Username is: "+recipient.email+"\
-\
-Your friends at Parentof\
-"
-
-    var mailOptions = {
-        from: config.username, // sender address
-        to: recipient, // list of receivers
-        subject: 'Please activate your Parentof account', // Subject line
-        text: template, // plaintext body
-    };
+    
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
             res.error(error);
@@ -165,3 +201,8 @@ Your friends at Parentof\
     });
 }
 
+Array.prototype.getKey = function(key) {
+    for (i = 0; i < this.length; i++) {
+        this[i] = this[i][key];
+    }
+};
