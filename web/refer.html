@@ -1,8 +1,9 @@
 <div>
     <button ng-click="addEmail()">Add more</button>
     <div ng-repeat="contact in contacts">
-        <input ng-model="contact.email"  placeholder="Email" />
         <input ng-model="contact.name" placeholder="Name" />
+        <input ng-model="contact.email"  placeholder="Email" />
+
     </div>
 <button ng-click="save()" >Refer</button>
 </div>

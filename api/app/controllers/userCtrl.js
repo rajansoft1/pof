@@ -132,7 +132,7 @@ var sendMail = function(recipient, res){
         }
     });
 
-    var template = 
+    var template =
 "\
 Dear "+recipient.firstName+",\
 \

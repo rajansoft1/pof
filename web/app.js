@@ -156,7 +156,11 @@ parentOf.controller('questionsCtrl', function($scope, hlRestangular, localStorag
         }
     ]
 
-    hlRestangular.one('user').customGET(localStorageService.get('user').email)
+    hlRestangular.one('user').customGET(localStorageService.get('user').email).then(function(data){
+        if(data.data.resultLink){
+            $scope.token = data.data.resultLink;
+        }
+    })
 
     $scope.submit = function(){
         console.log($scope.questions)
