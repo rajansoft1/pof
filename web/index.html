@@ -1,23 +1,120 @@
 <!DOCTYPE html>
-<html ng-app="parentOf">
-<head lang="en">
-    <meta charset="UTF-8">
-    <title> parentOf</title>
-    <link href="bower_components/angular-notify/dist/angular-notify.min.css" type="text/css" rel="stylesheet"  >
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<html lang="en" ng-app="parentOf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Parent of</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="bower_components/angular-notify/dist/angular-notify.min.css" type="text/css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="app/assets/css/landing-page.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="app/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
+
 <body ng-controller="mainCtrl">
-<div ui-view>
-
-</div>
-<script type="application/javascript" src="bower_components/jquery/dist/jquery.js" ></script>
-<script type="application/javascript" src="bower_components/angular/angular.min.js"></script>
-<script type="application/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-<script type="application/javascript" src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
-<script type="application/javascript" src="bower_components/angular-notify/dist/angular-notify.min.js"></script>
-<script type="application/javascript" src="bower_components/lodash/dist/lodash.min.js" ></script>
-<script type="application/javascript" src="bower_components/restangular/dist/restangular.js" ></script>
-<script type="application/javascript" src="app.js"></script>
-
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class=" topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header  col-md-4">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="col-md-6">
+                    <a class="navbar-brand topnav" href="#"><img src="app/assets/images/logo.png" class="img-responsive" WIDTH="100%"></a>
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a ui-sref="home">Home</a>
+                    </li>
+                    <li>
+                        <a ui-sref="about">About</a>
+                    </li>
+                    <li>
+                        <a ui-sref="register">Register</a>
+                    </li>
+                    <li>
+                        <a ui-sref="refer">Refer</a>
+                    </li>
+                    <li>
+                        <a href="#">Quiz</a>
+                    </li>
+                    <li>
+                        <a href="#">C & R Form</a>
+                    </li>
+                    <li>
+                        <a href="#">Child Report</a>
+                    </li>
+                    <li>
+                        <a href="#">FeedBack</a>
+                    </li>
+                    <li>
+                        <a href="#footerPof">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div style="margin-top: 100px; margin-bottom: 20px;" ui-view>
+    </div>
+    <!-- Footer -->
+    <div id="footerPof" >
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-md-4"><img src="app/assets/images/foter-logo.png" class="img-responsive" width="20%"></div>
+                            <div class="col-md-8"> &nbsp </div>
+                        </div>
+                        <h2>Contact Us</h2>
+                        <h3><a href="#">info@parentof.com</a></h3>
+                        <p>Parentof Solutions Pvt Ltd.</p>
+                        <p>No. 103, R J Manor, 11/A, 80 Feet Road, 1st </p>
+                        <p> Block, Koramangala, Bangalore 560 034</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <p class="copyright text-muted">Copyright &copy; Your Company 2016-2017. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-5 text-right pull-right" style="float:right;">
+                        <a href="#"><img src="app/assets/images/google+.png" width="10%" class="img-responsive" style="float:right;"></a>
+                        <a href="#"> <img src="app/assets/images/social-1.png" width="10%" class="img-responsive" style="float:right; margin:0 10px;"></a>
+                        <a href="#"> <img src="app/assets/images/facebook.png" width="10%" class="img-responsive" style="float:riWght;"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="application/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-notify/dist/angular-notify.min.js"></script>
+    <script type="application/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script type="application/javascript" src="bower_components/restangular/dist/restangular.js"></script>
+    <script type="application/javascript" src="app.js"></script>
 </body>
+
 </html>

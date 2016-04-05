@@ -9,11 +9,12 @@ var user = new Schema({
     email: String,
     mobile: String,
     referredBy: String,
-    questions: Object,
+    questions: Array,
     password: String,
     ageGroup: String,
     isActivated: String,
     resultLink: String,
+    rating: Number,
     createdDate: {
         type: Date,
         default: Date.now

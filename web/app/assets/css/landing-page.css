@@ -1,0 +1,434 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import "compass/css3";
+body,
+html {
+    width: 100%;
+    height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+.feedback{
+	margin-top:120px;
+}
+
+
+.feedback p{
+	color:#4f4f4f;
+	font-weight:bold;
+	 margin-left:20px;
+	 text-align:center;
+	 font-size:24px;
+}
+
+
+.nav>li {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.bcg2{
+background:#ecf0f0;  top: -65px;    position: relative;
+padding-bottom: 20px;
+
+}
+
+
+
+.expertbcg{
+background:#ecf0f0;  top:0px;
+padding-bottom: 20px;
+
+}
+
+
+.consent-release{
+	background:#f7f7f7;
+}
+
+.consent-release p{
+	font-weight:normal;
+}
+
+.consent-release ol li{
+	font-weight:normal;
+}
+
+
+
+
+.pdngmrgn{
+	padding:0 20px; margin-bottom:20px;
+}
+
+
+.bcg1{
+	background:#fff; border-radius:3px 3px 0px 0px; padding:20px; height:500px;
+}
+
+
+.experbcg2{
+	background:#fff; border-radius:3px 3px 0px 0px; padding:20px; 
+	  margin-top: 50px;
+}
+
+.expert h2{
+	color:#505050;
+	font-weight:bold;
+	margin-top:40px;
+	
+}
+
+.red{
+	color:#c43b20;
+	font-weight:600;
+}
+
+.topnav {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.expert-input{
+	border:1px solid #bbbbbb;
+	height:34px;
+	margin-bottom:25px;
+}
+
+
+.navbar-default {
+  background-color: #fff;
+ border-bottom: 1px solid #ddd;
+}
+
+.lead {
+	margin:0 5%;
+    font-size: 16px;
+	line-height:28px;
+	padding-bottom:20px;
+    font-weight: 400;
+	color:#5e6887;
+}
+
+.expert-help {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/expert-help.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/baner-bcg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+      position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background: url(../images/baner-bcg.png) repeat;
+  padding: 30px;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.content{
+	margin-top:100px;
+}
+
+.content h2{
+	text-transform:uppercase;
+	color:#666666;
+}
+
+.content p{
+	font-size:13px;
+	color:#4f4f4f;
+	line-height:20px;
+	text-align:left;
+	
+}
+
+
+.scroldownbtn{
+	margin-bottom:20px;
+	
+	color:#fff;
+	
+}
+
+.scroldownbtn a{
+	background:#f03048;
+	border-radius:50px;
+	padding:25px 80px;
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+
+}
+
+.scroldownbtn a:hover{
+	background:#d92c42;
+	
+	}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 6px 5px rgba(0,0,0,0.2);
+    font-size: 30px;
+	color:#0a0a0a;
+}
+
+
+
+.expert-help2 > h1 {
+    margin: 0;
+    text-shadow: 2px 6px 5px rgba(0,0,0,0.2);
+    font-size:26px;
+	color:#666666;
+	text-align:left;
+	font-weight:600;
+	text-transform:uppercase;
+	line-height:34px;
+	margin-bottom:30px;
+}
+
+.expert-help p{
+	color:#4f4f4f;
+	text-align:left;
+	font-weight:normal;
+}
+
+.expert-help2{
+      position: relative;
+  margin-top: 27%;
+  margin-bottom: 10%;
+  background: url(../images/baner-bcg.png) repeat;
+  padding: 30px;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+
+.expert-help2 > h3 {
+	padding-top:10px;
+   	padding-bottom:40px;
+	color:#0a0a0a;
+}
+
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+	padding-top:10px;
+   	padding-bottom:40px;
+	color:#0a0a0a;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+	text-transform:uppercase;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding:55px 0px 30px 0px;
+    background-color: #2d3746;
+}
+
+
+
+
+footer h2{
+	color:#fff;
+	padding-bottom:0px;
+	margin-bottom:10px;
+	font-size:20px;
+}
+
+footer h3{
+	padding-top:0px;
+	margin-top:10px;
+	padding-bottom:10px;
+
+}
+
+footer h3 a{
+	font-size:16px;
+	
+}
+
+
+footer h3 a:hover{
+	color:#fff;
+}
+
+footer p{
+	color:#fff;
+	line-height:10px;
+	font-size:13px;
+	padding-bottom:2px;
+	padding-top:2px;
+	font-weight:normal;
+}
+
+p.copyright {
+     margin: 16px 0 0;
+  color: #999999;
+  font-size: 13px;
+  margin-top: 27px;
+}
+
+li{
+    list-style: none;
+}
+.ul-question{
+    margin-left:0px !important;
+    padding-left:0px !important;
+}
+
+.loginform{
+    border-radius:20px; border:1px solid #3b3e42;
+    font-size:13px!important;
+}
+
+.submitbtn{
+    background:#f03048;
+    border-radius:40px;
+    padding:10px 50px;
+    text-align:center;
+    color:#FFF;
+    border:none;
+}
+
+.intro-message{
+    overflow:hidden;
+}

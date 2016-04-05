@@ -1,0 +1,79 @@
+<div ng-controller="loginCtrl" >
+
+            <div ng-hide="refer" class="row">
+                <div class="col-lg-12 text-center col-sm-12">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="lead">Parentof is a ‘child growth and development’ analytics company. Conceptualized in early 2014, Parentof was founded with a vision to ‘Simplify Parenting’ for young Indian parents by understanding and solving their unique problems arising from today’s day and age. </p>
+                    <p class="lead">The company was formed when a diverse group of people with a collective experience of several decades, came together to study the patterns and challenges of parenting in the Indian society. The goal was simple – To leverage technology in ways that help parents to know their child better and experience better parenting.</p>
+                </div>
+            </div>
+    <!--<form  ng-show="refer" style="width: 300px; margin: auto">-->
+        <!--<div class="form-group">-->
+            <!--<label for="exampleInputEmail1">Email address</label>-->
+            <!--<input type="email" class="form-control" id="exampleInputEmail1" ng-model="user.email" placeholder="Email">-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+            <!--<label for="exampleInputPassword1">Password</label>-->
+            <!--<input type="password" class="form-control" id="exampleInputPassword1" ng-model="user.password" placeholder="Password">-->
+        <!--</div>-->
+        <!--<button  class="btn btn-default" ng-click="login()" >Login</button>-->
+        <!--<a ui-sref="register">Register</a>-->
+    <!--</form>-->
+    <div ng-show="refer" class="intro-header">
+        <div class="container">
+
+            <div class="row" style="text-align:center;">
+                <div class="col-lg-12 text-center">
+                    <div class="intro-message">
+                        <h1>Technology + Insights  <strong>= SimpliﬁedParenting</strong></h1>
+                        <h3>welcome to the simplify parenting project</h3>
+                        <div style="text-align:center; margin-left:15%;">
+
+                            <div class="col-md-3">
+                                <input type="Text" value="User Name" ng-model="user.email" class="form-control loginform">
+
+
+                            </div>
+                            <div class="col-md-3">
+                                <input type="PASSWORD" value="Password" ng-model="user.password" class="form-control loginform">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="SUBMIT" value="Login" ng-click="login()" class="submitbtn">
+
+                            </div>
+
+                            <div class="col-md-2" style="padding-top:10px;">
+                                <a ui-sref="register">Sign Up</a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="text-align:center; margin-left:15%;">
+
+                            <div class="col-md-4">
+                                &nbsp;
+                            </div>
+
+                            <!--<div class="col-md-8" style="padding-left:50px;">-->
+                                <!--<a href="#">Forgot Password?</a>-->
+
+                            <!--</div>-->
+
+                        </div></div>
+
+                </div>
+
+                <!--<ul class="list-inline intro-social-buttons">
+                    <li class="scroldownbtn">
+                      <a href="#">Scroll Down</a>
+                    </li>
+
+                </ul>-->
+            </div>
+        </div>
+    </div>
+
+</div>
