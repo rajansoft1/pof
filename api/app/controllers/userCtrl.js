@@ -49,8 +49,9 @@ exports.register = function (req, res) {
         if(data.length == 0){
             userOffline.find({email: user.email}, function(errr, offline){
                 if(!err){
-                    if(offline.length > 0){
+                    if(offline.length > 0) {
                         user.resultLink = offline[0].resultLink
+                    }
                         user.save(function(err){
                             if (err) {
                                 res.error(err);
@@ -67,9 +68,10 @@ exports.register = function (req, res) {
                                     text: template // plaintext body
                                 };
                                 sendMail(mailOptions, res)
+
                             }
                         })
-                    }
+
                 }
             })
 
