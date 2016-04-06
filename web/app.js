@@ -72,7 +72,7 @@ parentOf.run(function ($rootScope, $state, $location, localStorageService) {
 
         var loggedIn = localStorageService.get('user');
         // NOT authenticated - wants any private stuff
-        if (!loggedIn && toState.name !== "login" && toState.name !== "register") {
+        if (!loggedIn && toState.name !== "login" && toState.name !== "register"&& toState.name !== "thanks") {
             $state.go('login');
             event.preventDefault();
             return;
@@ -126,7 +126,7 @@ parentOf.controller('registrationCtrl', function ($scope, hlRestangular, $state,
     $scope.register = function () {
 
         if($scope.refer){
-            hlRestangular.one("user").one("id").customGET($scope.refer, function(valid){
+            hlRestangular.one("user").one("id").customGET($scope.refer).then( function(valid){
                 if(valid.data) {
                     hlRestangular.one("user").one('register').customPOST({user: $scope.user}).then(function (res) {
                         $scope.user.password = null
