@@ -48,6 +48,9 @@ parentOf.config(function ($stateProvider, $urlRouterProvider) {
             url: '/question-done',
             templateUrl: 'app/views/questionDone.html',
             controller: 'questionDoneCtrl'
+        }).state('thanks',{
+            url: '/thanks',
+            templateUrl: 'app/views/thankyou.html'
         })
 
 

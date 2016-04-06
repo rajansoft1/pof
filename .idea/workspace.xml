@@ -24,25 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71884984" vertical-offset="1530" max-vertical-offset="3810">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+            <state vertical-scroll-proportion="-17.222221" vertical-offset="315" max-vertical-offset="3855">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
-                <element signature="e#1853#1988#0" expanded="false" />
-                <element signature="e#5059#5493#0" expanded="false" />
-                <element signature="e#5648#9730#0" expanded="false" />
-                <element signature="e#9760#17589#0" expanded="false" />
-                <element signature="e#17651#17697#0" expanded="false" />
-                <element signature="e#17703#17749#0" expanded="false" />
-                <element signature="e#17849#18126#0" expanded="false" />
-                <element signature="e#18227#18456#0" expanded="false" />
-                <element signature="e#18491#18799#0" expanded="false" />
-                <marker date="1459950466000" expanded="true" signature="19109:19174" placeholder="..." />
-                <marker date="1459950466000" expanded="true" signature="19221:19668" placeholder="..." />
-                <marker date="1459950466000" expanded="true" signature="19444:19647" placeholder="..." />
+                <element signature="e#1960#2095#0" expanded="false" />
+                <element signature="e#5166#5600#0" expanded="false" />
+                <element signature="e#5755#9837#0" expanded="false" />
+                <element signature="e#9867#17696#0" expanded="false" />
+                <element signature="e#17758#17804#0" expanded="false" />
+                <element signature="e#17810#17856#0" expanded="false" />
+                <element signature="e#17956#18233#0" expanded="false" />
+                <element signature="e#18334#18563#0" expanded="false" />
+                <element signature="e#18598#18906#0" expanded="false" />
+                <marker date="1459950671000" expanded="true" signature="19216:19281" placeholder="..." />
+                <marker date="1459950671000" expanded="true" signature="19328:19775" placeholder="..." />
+                <marker date="1459950671000" expanded="true" signature="19551:19754" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thankyou.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app/views/thankyou.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.047694754" vertical-offset="0" max-vertical-offset="629">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,33 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pe_iq_sample (4).json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/pe_iq_sample (4).json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="994980">
-              <caret line="2386" column="15" selection-start-line="2386" selection-start-column="15" selection-end-line="2386" selection-end-column="15" />
-              <folding>
-                <element signature="n#!!block;n#326#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#327#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#328#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#329#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#330#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#331#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#332#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#333#0;n#!!top" expanded="false" />
-                <element signature="e#50783#51288#0" expanded="false" />
-                <element signature="e#51311#56451#0" expanded="false" />
-                <element signature="e#52683#53474#0" expanded="false" />
-                <element signature="e#54571#54795#0" expanded="false" />
-                <element signature="e#55007#55351#0" expanded="false" />
-                <element signature="e#55563#55934#0" expanded="false" />
-                <element signature="e#56044#56415#0" expanded="false" />
-                <element signature="e#1280917#1281617#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pe for iq.json" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/pe for iq.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -192,6 +175,7 @@
         <option value="$PROJECT_DIR$/api/config/env/development.js" />
         <option value="$PROJECT_DIR$/api/server.js" />
         <option value="$PROJECT_DIR$/web/app.js" />
+        <option value="$PROJECT_DIR$/web/app/views/thankyou.html" />
       </list>
     </option>
   </component>
@@ -245,6 +229,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parentOf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parentOf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,18 +506,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="9240">
           <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
           <folding>
-            <element signature="e#1853#1988#0" expanded="false" />
-            <element signature="e#5059#5493#0" expanded="false" />
-            <element signature="e#5648#9730#0" expanded="false" />
-            <element signature="e#9760#17589#0" expanded="false" />
-            <element signature="e#17651#17697#0" expanded="false" />
-            <element signature="e#17703#17749#0" expanded="false" />
-            <element signature="e#17849#18126#0" expanded="false" />
-            <element signature="e#18227#18456#0" expanded="false" />
-            <element signature="e#18491#18799#0" expanded="false" />
-            <marker date="1459950466000" expanded="true" signature="19109:19174" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19221:19668" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19444:19647" placeholder="..." />
+            <element signature="e#1960#2095#0" expanded="false" />
+            <element signature="e#5166#5600#0" expanded="false" />
+            <element signature="e#5755#9837#0" expanded="false" />
+            <element signature="e#9867#17696#0" expanded="false" />
+            <element signature="e#17758#17804#0" expanded="false" />
+            <element signature="e#17810#17856#0" expanded="false" />
+            <element signature="e#17956#18233#0" expanded="false" />
+            <element signature="e#18334#18563#0" expanded="false" />
+            <element signature="e#18598#18906#0" expanded="false" />
+            <marker date="1459950671000" expanded="true" signature="19216:19281" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19328:19775" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19551:19754" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -602,18 +608,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1185">
           <caret line="50" column="34" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="34" />
           <folding>
-            <element signature="e#1853#1988#0" expanded="false" />
-            <element signature="e#5059#5493#0" expanded="false" />
-            <element signature="e#5648#9730#0" expanded="false" />
-            <element signature="e#9760#17589#0" expanded="false" />
-            <element signature="e#17651#17697#0" expanded="false" />
-            <element signature="e#17703#17749#0" expanded="false" />
-            <element signature="e#17849#18126#0" expanded="false" />
-            <element signature="e#18227#18456#0" expanded="false" />
-            <element signature="e#18491#18799#0" expanded="false" />
-            <marker date="1459950466000" expanded="true" signature="19109:19174" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19221:19668" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19444:19647" placeholder="..." />
+            <element signature="e#1960#2095#0" expanded="false" />
+            <element signature="e#5166#5600#0" expanded="false" />
+            <element signature="e#5755#9837#0" expanded="false" />
+            <element signature="e#9867#17696#0" expanded="false" />
+            <element signature="e#17758#17804#0" expanded="false" />
+            <element signature="e#17810#17856#0" expanded="false" />
+            <element signature="e#17956#18233#0" expanded="false" />
+            <element signature="e#18334#18563#0" expanded="false" />
+            <element signature="e#18598#18906#0" expanded="false" />
+            <marker date="1459950671000" expanded="true" signature="19216:19281" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19328:19775" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19551:19754" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -874,22 +880,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71884984" vertical-offset="1530" max-vertical-offset="3810">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        <state vertical-scroll-proportion="-17.222221" vertical-offset="315" max-vertical-offset="3855">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
-            <element signature="e#1853#1988#0" expanded="false" />
-            <element signature="e#5059#5493#0" expanded="false" />
-            <element signature="e#5648#9730#0" expanded="false" />
-            <element signature="e#9760#17589#0" expanded="false" />
-            <element signature="e#17651#17697#0" expanded="false" />
-            <element signature="e#17703#17749#0" expanded="false" />
-            <element signature="e#17849#18126#0" expanded="false" />
-            <element signature="e#18227#18456#0" expanded="false" />
-            <element signature="e#18491#18799#0" expanded="false" />
-            <marker date="1459950466000" expanded="true" signature="19109:19174" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19221:19668" placeholder="..." />
-            <marker date="1459950466000" expanded="true" signature="19444:19647" placeholder="..." />
+            <element signature="e#1960#2095#0" expanded="false" />
+            <element signature="e#5166#5600#0" expanded="false" />
+            <element signature="e#5755#9837#0" expanded="false" />
+            <element signature="e#9867#17696#0" expanded="false" />
+            <element signature="e#17758#17804#0" expanded="false" />
+            <element signature="e#17810#17856#0" expanded="false" />
+            <element signature="e#17956#18233#0" expanded="false" />
+            <element signature="e#18334#18563#0" expanded="false" />
+            <element signature="e#18598#18906#0" expanded="false" />
+            <marker date="1459950671000" expanded="true" signature="19216:19281" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19328:19775" placeholder="..." />
+            <marker date="1459950671000" expanded="true" signature="19551:19754" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/views/thankyou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047694754" vertical-offset="0" max-vertical-offset="629">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
