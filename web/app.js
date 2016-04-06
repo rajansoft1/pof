@@ -82,7 +82,7 @@ parentOf.run(function ($rootScope, $state, $location, localStorageService) {
 
 parentOf.factory('hlRestangular', ['Restangular', function (Restangular) {
     return Restangular.withConfig(function (RestangularConfigurer) {
-        RestangularConfigurer.setBaseUrl("http://localhost:3009");
+        RestangularConfigurer.setBaseUrl("http://api.parentof.com");
         RestangularConfigurer.setDefaultHttpFields({
             timeout: 15000
         });
