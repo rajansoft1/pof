@@ -116,7 +116,7 @@ parentOf.controller('registrationCtrl', function ($scope, hlRestangular, $state,
         lastName: '',
         email: '',
         mobile: '',
-        referredBy: '',
+        referredBy: $scope.refer,
         password: '',
         ageGroup: ''
     }
