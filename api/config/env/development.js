@@ -4,7 +4,7 @@ module.exports = {
     db: 'mongodb://localhost/parentof-dev',
     username: "Info@parentof.com ",
     password: "pikto2p2attempt",
-    postActivation: 'http://localhost:8080/#login',
+    postActivation: 'http://kyc.parentof.com/#login',
     log: {
         // Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
         format: 'dev',
