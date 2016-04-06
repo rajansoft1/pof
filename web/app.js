@@ -120,10 +120,11 @@ parentOf.controller('registrationCtrl', function ($scope, hlRestangular, $state,
         password: '',
         ageGroup: ''
     }
-    if($scope.refer){
-        hlRestangular.one("user").one("id").customGET($scope.refer, function(valid){
-            if(valid.data) {
-                $scope.register = function () {
+    $scope.register = function () {
+
+        if($scope.refer){
+            hlRestangular.one("user").one("id").customGET($scope.refer, function(valid){
+                if(valid.data) {
                     hlRestangular.one("user").one('register').customPOST({user: $scope.user}).then(function (res) {
                         $scope.user.password = null
                         localStorageService.set('user', $scope.user)
@@ -136,11 +137,12 @@ parentOf.controller('registrationCtrl', function ($scope, hlRestangular, $state,
                         }
                     })
                 }
-            }
-            else{
+                else{
 
-            }
-        })
+                }
+            })
+        }
+
     }
 })
 parentOf.controller('loginCtrl', function ($scope, hlRestangular, $state, localStorageService,$location) {
