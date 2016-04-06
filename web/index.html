@@ -38,29 +38,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li ng-hide="hideExtra">
                         <a ui-sref="home">Home</a>
                     </li>
                     <li>
                         <a ui-sref="about">About</a>
                     </li>
-                    <li>
-                        <a ui-sref="register">Register</a>
+                    <li ng-hide="hideExtra">
+                        <a ui-sref="register">Login</a>
                     </li>
-                    <li>
+                    <li ng-hide="hideExtra">
                         <a ui-sref="refer">Refer</a>
                     </li>
-                    <li>
-                        <a href="#">Quiz</a>
-                    </li>
-                    <li>
-                        <a href="#">C & R Form</a>
-                    </li>
-                    <li>
-                        <a href="#">Child Report</a>
-                    </li>
-                    <li>
-                        <a href="#">FeedBack</a>
+                    <li ng-hide="hideExtra">
+                        <a href="#">How to</a>
                     </li>
                     <li>
                         <a href="#footerPof">Contact</a>

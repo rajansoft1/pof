@@ -70,7 +70,7 @@ parentOf.run(function ($rootScope, $state, $location, localStorageService) {
         var loggedIn = localStorageService.get('user');
         // NOT authenticated - wants any private stuff
         if (!loggedIn && toState.name !== "login" && toState.name !== "register") {
-            $state.go('register');
+            $state.go('login');
             event.preventDefault();
             return;
         }
@@ -96,6 +96,11 @@ parentOf.controller('mainCtrl', function ($scope) {
     $scope.$on('redirect', function (e, u) {
         //console.log('redirect')
         $scope.url = u;
+    })
+
+    $scope.hideExtra = true;
+    $scope.$on('showExtra', function(){
+        $scope.hideExtra = true;
     })
 })
 parentOf.controller('questionDoneCtrl', function($scope){
