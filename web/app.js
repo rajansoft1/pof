@@ -553,6 +553,9 @@ parentOf.controller('questionsCtrl', function ($scope, hlRestangular, localStora
             $scope.token = data.data.resultLink;
 
         }
+        if(data.data.rating){
+            $scope.rated = data.data.rating
+        }
     })
 
     $scope.submit = function () {
