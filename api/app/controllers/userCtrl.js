@@ -198,7 +198,9 @@ var sendMail = function(mailOptions, res){
         if(error){
             res.error(error);
         }
-        res.success('Message sent: ' + info.response);
+        else{
+            res.success('Message sent: ');
+        }
     });
 }
 
