@@ -181,8 +181,8 @@ var sendMail = function(mailOptions, res){
             rejectUnauthorized: false
         },
         auth: {
-            user: config.username,
-            pass: config.password
+            user: "info@parentOf.com",
+            pass: "parentOf"
         }
     });
 

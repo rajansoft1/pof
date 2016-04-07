@@ -120,8 +120,8 @@
       <file leaf-file-name="userCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17304747" vertical-offset="607" max-vertical-offset="3090">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.4946401" vertical-offset="2437" max-vertical-offset="3090">
+              <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -901,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17304747" vertical-offset="607" max-vertical-offset="3090">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4946401" vertical-offset="2437" max-vertical-offset="3090">
+          <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
           <folding />
         </state>
       </provider>
