@@ -175,7 +175,7 @@ exports.updateResultToken = function(req, res){
 
 var sendMail = function(mailOptions, res){
     //var transporter = nodemailer.createTransport('smtps://"online@homelane.com:Homevista12@smtp.gmail.com');
-    var transporter = nodemailer.createTransport(ses({
+    var transporter = nodeMailer.createTransport(ses({
         accessKeyId: 'AKIAJHJFHYJFURZKESMA',
         secretAccessKey: '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'
     }));
