@@ -133,7 +133,7 @@ exports.activate = function(req, res){
             data.isActivated = true;
             data.save(function(){
                 res.writeHead(302, {
-                    'Location': Config.postActivation
+                    'Location': Config.postActivation+ '?refer='+ data.referredBy
                     //add other headers here...
                 });
                 res.end();
