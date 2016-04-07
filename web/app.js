@@ -200,6 +200,16 @@ parentOf.controller('questionsCtrl', function ($scope, hlRestangular, localStora
             })
         }
     }
+
+    $scope.click1 = function(){
+        hlRestangular.one('user').one('rating').customPOST({
+            email: localStorageService.get('user').email,
+            rating: $scope.starRating
+        }).then(function (res) {
+
+        })
+    }
+
     hlRestangular.one('user').customGET(localStorageService.get('user').email).then(function (data) {
         var question34 = [
             {
