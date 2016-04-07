@@ -2,6 +2,7 @@
  * Created by rajanchaudhary on 2/15/16.
  */
 var nodeMailer = require('nodemailer');
+var ses = require('nodemailer-ses-transport');
 var User = require('mongoose').model('user');
 var userOffline = require('mongoose').model('userOffline');
 var Config = require('../../config/config')
@@ -62,7 +63,7 @@ exports.register = function (req, res) {
                                     "Your Username is: "+user.email+
                                     "Your friends at Parentof"
                                 var mailOptions = {
-                                    from: config.username, // sender address
+                                    from: "info@parentof.com", // sender address
                                     to: user.email, // list of receivers
                                     subject: 'Please activate your Parentof account', // Subject line
                                     text: template // plaintext body
@@ -174,18 +175,25 @@ exports.updateResultToken = function(req, res){
 
 var sendMail = function(mailOptions, res){
     //var transporter = nodemailer.createTransport('smtps://"online@homelane.com:Homevista12@smtp.gmail.com');
-    var transporter = nodeMailer.createTransport({
-        service: 'Gmail',
-        //uncomment tls to test in local machine.
-        tls: {
-            rejectUnauthorized: false
-        },
-        auth: {
-            user: "info@parentOf.com",
-            pass: "parentOf"
-        }
-    });
-
+    var transporter = nodemailer.createTransport(ses({
+        accessKeyId: 'AKIAJHJFHYJFURZKESMA',
+        secretAccessKey: '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'
+    }));
+    //var transporter = nodeMailer.createTransport({
+    //    service: 'Gmail',
+    //    //uncomment tls to test in local machine.
+    //    tls: {
+    //        rejectUnauthorized: false
+    //    },
+    //    auth: {
+    //        user: "info@parentOf.com",
+    //        pass: "parentOf"
+    //    }
+    //});
+    //Access Key ID:
+    //    AKIAJHJFHYJFURZKESMA
+    //Secret Access Key:
+    //    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
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
             res.error(error);
