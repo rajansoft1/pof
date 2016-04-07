@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="question.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.57233703" vertical-offset="0" max-vertical-offset="629">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -98,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/views/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7376788" vertical-offset="166" max-vertical-offset="795">
-              <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+            <state vertical-scroll-proportion="-16.833334" vertical-offset="166" max-vertical-offset="795">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#!!top" expanded="true" />
@@ -168,9 +168,9 @@
         <option value="$USER_HOME$/Downloads/shutter-family-design-core (1).json" />
         <option value="$PROJECT_DIR$/api/app/controllers/userCtrl.js" />
         <option value="$PROJECT_DIR$/api/app/routes/indexRoute.js" />
-        <option value="$PROJECT_DIR$/web/app/views/question.html" />
         <option value="$PROJECT_DIR$/web/app.js" />
         <option value="$PROJECT_DIR$/web/app/views/register.html" />
+        <option value="$PROJECT_DIR$/web/app/views/question.html" />
       </list>
     </option>
   </component>
@@ -872,18 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/app/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
@@ -906,12 +894,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/views/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7376788" vertical-offset="166" max-vertical-offset="795">
-          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        <state vertical-scroll-proportion="-16.833334" vertical-offset="166" max-vertical-offset="795">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57233703" vertical-offset="0" max-vertical-offset="629">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
