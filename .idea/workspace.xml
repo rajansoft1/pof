@@ -24,12 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.740741" vertical-offset="2584" max-vertical-offset="9810">
-              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.46964857" vertical-offset="2826" max-vertical-offset="4470">
+              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding>
+                <element signature="e#6452#20288#0" expanded="false" />
                 <marker date="1460041562000" expanded="true" signature="20941:21006" placeholder="..." />
                 <marker date="1460041562000" expanded="true" signature="21053:21500" placeholder="..." />
                 <marker date="1460041562000" expanded="true" signature="21276:21479" placeholder="..." />
@@ -74,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45310014" vertical-offset="0" max-vertical-offset="629">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -115,8 +116,8 @@
       <file leaf-file-name="indexRoute.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app/routes/indexRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.111111" vertical-offset="0" max-vertical-offset="420">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -125,8 +126,8 @@
       <file leaf-file-name="userCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.148149" vertical-offset="1982" max-vertical-offset="3240">
-              <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+            <state vertical-scroll-proportion="-14.851851" vertical-offset="2209" max-vertical-offset="3465">
+              <caret line="174" column="20" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -166,11 +167,11 @@
         <option value="$PROJECT_DIR$/api/package.json" />
         <option value="$USER_HOME$/Downloads/pe for iq (1).json" />
         <option value="$USER_HOME$/Downloads/shutter-family-design-core (1).json" />
-        <option value="$PROJECT_DIR$/api/app/controllers/userCtrl.js" />
-        <option value="$PROJECT_DIR$/api/app/routes/indexRoute.js" />
         <option value="$PROJECT_DIR$/web/app/views/register.html" />
         <option value="$PROJECT_DIR$/web/app.js" />
         <option value="$PROJECT_DIR$/web/app/views/question.html" />
+        <option value="$PROJECT_DIR$/api/app/controllers/userCtrl.js" />
+        <option value="$PROJECT_DIR$/api/app/routes/indexRoute.js" />
       </list>
     </option>
   </component>
@@ -523,6 +524,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="9240">
           <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
           <folding>
+            <element signature="e#6452#20288#0" expanded="false" />
             <marker date="1460041562000" expanded="true" signature="20941:21006" placeholder="..." />
             <marker date="1460041562000" expanded="true" signature="21053:21500" placeholder="..." />
             <marker date="1460041562000" expanded="true" signature="21276:21479" placeholder="..." />
@@ -616,6 +618,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1185">
           <caret line="50" column="34" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="34" />
           <folding>
+            <element signature="e#6452#20288#0" expanded="false" />
             <marker date="1460041562000" expanded="true" signature="20941:21006" placeholder="..." />
             <marker date="1460041562000" expanded="true" signature="21053:21500" placeholder="..." />
             <marker date="1460041562000" expanded="true" signature="21276:21479" placeholder="..." />
@@ -834,22 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.148149" vertical-offset="1982" max-vertical-offset="3240">
-          <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/routes/indexRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.111111" vertical-offset="0" max-vertical-offset="420">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1305">
@@ -864,11 +851,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.851851" vertical-offset="2209" max-vertical-offset="3465">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/app/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,26 +899,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.js">
+    <entry file="file://$PROJECT_DIR$/api/app/routes/indexRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.740741" vertical-offset="2584" max-vertical-offset="9810">
-          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding>
-            <marker date="1460041562000" expanded="true" signature="20941:21006" placeholder="..." />
-            <marker date="1460041562000" expanded="true" signature="21053:21500" placeholder="..." />
-            <marker date="1460041562000" expanded="true" signature="21276:21479" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/views/question.html">
+    <entry file="file://$PROJECT_DIR$/web/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45310014" vertical-offset="0" max-vertical-offset="629">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.46964857" vertical-offset="2826" max-vertical-offset="4470">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#6452#20288#0" expanded="false" />
+            <marker date="1460041562000" expanded="true" signature="20941:21006" placeholder="..." />
+            <marker date="1460041562000" expanded="true" signature="21053:21500" placeholder="..." />
+            <marker date="1460041562000" expanded="true" signature="21276:21479" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -159,13 +159,28 @@ exports.getUserByEmail = function (req, res) {
 exports.updateResultToken = function(req, res){
     var email = req.params.email;
     var token = req.params.token;
-    console.log(email)
     User.findOne({email: email}, function (err, data) {
         if(err){
             res.error("account with given email not found")
         }
         else{
             data.resultLink = token;
+            data.save(function(rs){
+                res.success(data)
+            })
+        }
+    })
+}
+
+exports.submitRating = function(){
+    var email = req.params.email;
+    var rating = req.params.rating;
+    User.findOne({email: email}, function (err, data) {
+        if(err){
+            res.error("account with given email not found")
+        }
+        else{
+            data.rating = rating;
             data.save(function(rs){
                 res.success(data)
             })

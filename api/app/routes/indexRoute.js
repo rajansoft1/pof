@@ -16,6 +16,7 @@ module.exports = function (app) {
     app.post('/user/register', user.register);
     app.post('/refer', user.refer);
     app.post('/user/login', user.login);
+    app.post('/user/rating', user.submitRating);
     app.post('/user/questions', user.submitAnswers);
 
 
