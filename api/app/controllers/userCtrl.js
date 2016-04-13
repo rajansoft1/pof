@@ -29,8 +29,8 @@ exports.refer = function(req, res){
 
     var mailOptions = {
         from: config.username, // sender address
-        to: req.email, // list of receivers
-        cc: req.contacts.getKey('email'),
+        to: "sumanrocs@gmail.com",//req.email, // list of receivers
+        //cc: req.contacts.getKey('email'),
         subject: 'Please activate your Parentof account', // Subject line
         text: template // plaintext body
     };
@@ -190,25 +190,22 @@ exports.submitRating = function(){
 
 var sendMail = function(mailOptions, res){
     //var transporter = nodemailer.createTransport('smtps://"online@homelane.com:Homevista12@smtp.gmail.com');
-    var transporter = nodeMailer.createTransport(ses({
+    /*var transporter = nodeMailer.createTransport(ses({
         accessKeyId: 'AKIAJHJFHYJFURZKESMA',
         secretAccessKey: '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'
-    }));
-    //var transporter = nodeMailer.createTransport({
-    //    service: 'Gmail',
-    //    //uncomment tls to test in local machine.
+    }));*/
+    var transporter = nodeMailer.createTransport({
+        service: 'Gmail',
+        //uncomment tls to test in local machine.
     //    tls: {
     //        rejectUnauthorized: false
     //    },
-    //    auth: {
-    //        user: "info@parentOf.com",
-    //        pass: "parentOf"
-    //    }
-    //});
-    //Access Key ID:
-    //    AKIAJHJFHYJFURZKESMA
-    //Secret Access Key:
-    //    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
+        auth: {
+            user: "info@parentOf.com",
+            pass: "parentOf"
+        }
+    });
+    
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
             res.error(error);
