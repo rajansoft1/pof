@@ -17,3 +17,4 @@ temp
 dist
 clients/web/temp
 clients/web/dist/*
+logs/*

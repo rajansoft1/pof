@@ -20,17 +20,16 @@ exports.getById = function(req, res){
 
 
 exports.refer = function(req, res){
-    var template = "Referral Page Content"+
-"Refer a friend!"
+    var template = "Referral Page Content\n\n\n"+
+"Refer a friend!\n\n"+
 
-"Parentof began with the simple question – How can we make a parent’s life easier? Our vision" +
+"Parentof began with the simple question – How can we make a parent’s life easier? \nOur vision" +
 
-"became simpler with each person who joined our community, and shared their inputs after using our platform. Help us in our vision to Simplify Parenting! Refer us to your friends, and let them know how you feel about Parentof. Each person who joins our community adds to our research and helps us to bring better parenting insights to you! To share Parentof with your friends, click the options below – {FB Share} {Twitter Share} {Whatsapp Share} {Linkedin Share} {Email Share}"
-
+" became simpler with each person who joined our community, and shared their inputs after using our platform. Help us in our vision to Simplify Parenting! Refer us to your friends, and let them know how you feel about Parentof. Each person who joins our community adds to our research and helps us to bring better parenting insights to you! To share Parentof with your friends, click the options below – \n{FB Share} \n{Twitter Share} \n{Whatsapp Share} \n{Linkedin Share} \n{Email Share}"
     var mailOptions = {
         from: config.username, // sender address
-        to: "sumanrocs@gmail.com",//req.email, // list of receivers
-        //cc: req.contacts.getKey('email'),
+        to: "req.email", // list of receivers
+        cc: req.contacts.getKey('email'),
         subject: 'Please activate your Parentof account', // Subject line
         text: template // plaintext body
     };
@@ -58,10 +57,10 @@ exports.register = function (req, res) {
                                 res.error(err);
                             } else {
                                 var template =
-                                    "Dear "+user.firstName+", We are excited to have you onboard our community. To complete your registration, please click the following link:"+user.resultLink
+                                    "Dear "+user.firstName+", \n\nWe are excited to have you onboard our community. To complete your registration, please click the following link:"+user.resultLink
                                     + "If the above link/button does not work, please use your Web browser to go to:" +user.resultLink+
-                                    "Your Username is: "+user.email+
-                                    "Your friends at Parentof"
+                                    "\nYour Username is: "+user.email+
+                                    "\nYour friends at Parentof"
                                 var mailOptions = {
                                     from: "info@parentof.com", // sender address
                                     to: user.email, // list of receivers
@@ -201,8 +200,8 @@ var sendMail = function(mailOptions, res){
     //        rejectUnauthorized: false
     //    },
         auth: {
-            user: "info@parentOf.com",
-            pass: "parentOf"
+            user: "meetshanu1991@gmail.com",
+            pass: "losuman"
         }
     });
     
