@@ -27,8 +27,8 @@ exports.refer = function(req, res){
 
 " became simpler with each person who joined our community, and shared their inputs after using our platform. Help us in our vision to Simplify Parenting! Refer us to your friends, and let them know how you feel about Parentof. Each person who joins our community adds to our research and helps us to bring better parenting insights to you! To share Parentof with your friends, click the options below – \n{FB Share} \n{Twitter Share} \n{Whatsapp Share} \n{Linkedin Share} \n{Email Share}"
     var mailOptions = {
-        from: config.username, // sender address
-        to: "req.email", // list of receivers
+        from: Config.username, // sender address
+        to: req.email, // list of receivers
         cc: req.contacts.getKey('email'),
         subject: 'Please activate your Parentof account', // Subject line
         text: template // plaintext body
@@ -62,7 +62,7 @@ exports.register = function (req, res) {
                                     "\nYour Username is: "+user.email+
                                     "\nYour friends at Parentof"
                                 var mailOptions = {
-                                    from: "info@parentof.com", // sender address
+                                    from: Config.username, // sender address
                                     to: user.email, // list of receivers
                                     subject: 'Please activate your Parentof account', // Subject line
                                     text: template // plaintext body
@@ -200,8 +200,8 @@ var sendMail = function(mailOptions, res){
     //        rejectUnauthorized: false
     //    },
         auth: {
-            user: "meetshanu1991@gmail.com",
-            pass: "losuman"
+            user: Config.username,
+            pass: Config.password
         }
     });
     
