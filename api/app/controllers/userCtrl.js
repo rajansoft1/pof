@@ -47,30 +47,32 @@ exports.register = function (req, res) {
     var user = new User(req.body.user);
     User.find({email: req.body.user.email}, function(err, data){
         if(data.length == 0){
-            userOffline.find({email: user.email}, function(errr, offline){
+            userOffline.findOne({email: user.email}, function(err, offline){
+
                 if(!err){
-                    if(offline.length > 0) {
+                    if(offline && offline.length > 0) {
                         user.resultLink = offline[0].resultLink
                     }
-                        user.save(function(err){
-                            if (err) {
-                                res.error(err);
-                            } else {
-                                var template =
-                                    "Dear "+user.firstName+", \n\nWe are excited to have you onboard our community. To complete your registration, please click the following link:"+user.resultLink
-                                    + "If the above link/button does not work, please use your Web browser to go to:" +user.resultLink+
-                                    "\nYour Username is: "+user.email+
-                                    "\nYour friends at Parentof"
-                                var mailOptions = {
-                                    from: Config.username, // sender address
-                                    to: user.email, // list of receivers
-                                    subject: 'Please activate your Parentof account', // Subject line
-                                    text: template // plaintext body
-                                };
-                                sendMail(mailOptions, res)
+                    user.save(function(err){
+                        if (err) {
+                            res.error(err);
+                        } else {
+                            var template =
+                                "Dear "+user.firstName+", \n\nWe are excited to have you onboard our community. To complete your registration, please click the following link: "+Config.activationLink+user._id
+                                + " If the above link/button does not work, please use your Web browser to go to: " +Config.activationLink+user._id+
+                                "\nYour Username is: "+user.email+
+                                "\nYour friends at Parentof"
 
-                            }
-                        })
+                            var mailOptions = {
+                                from: Config.username, // sender address
+                                to: user.email, // list of receivers
+                                subject: 'Please activate your Parentof account', // Subject line
+                                text: template // plaintext body
+                            };
+                            sendMail(mailOptions, res)
+
+                        }
+                    })
 
                 }
             })
@@ -126,7 +128,7 @@ exports.activate = function(req, res){
     var id = req.params.token;
     User.findOne({_id: id}, function (err, data) {
         if(err){
-            res.error("account with given email not found")
+            res.error("Account with given token is not found")
         }
         else{
             data.isActivated = true;
