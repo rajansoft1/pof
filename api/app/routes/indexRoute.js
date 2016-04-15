@@ -1,13 +1,13 @@
 module.exports = function (app) {
     var user = require('../controllers/userCtrl');
-
+    var health = require('../controllers/health');
     app.get('/*', function (req, res, next) {
         res.header('X-XSS-Protection', 0);
         res.setHeader('Access-Control-Allow-Origin', '*');
         next();
     });
 
-
+    app.get('/health',health.getHealth)
     app.get('/user/id/:id', user.getById);
     app.get('/user/:email', user.getUserByEmail);
     app.get('/activate/:token', user.activate);
