@@ -127,7 +127,7 @@ exports.submitAnswers = function(req, res){
 exports.activate = function(req, res){
     var id = req.params.token;
     User.findOne({_id: id}, function (err, data) {
-        if(err){
+        if(err|| !data){
             res.error("Account with given token is not found")
         }
         else{
