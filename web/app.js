@@ -20,6 +20,7 @@ parentOf.config(function ($stateProvider, $urlRouterProvider) {
         // register screen
         .state('register', {
             url: '/register',
+            params: {refer: null},
             templateUrl: 'app/views/register.html',
             controller: 'registrationCtrl'
         })
