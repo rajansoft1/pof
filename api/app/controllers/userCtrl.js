@@ -58,8 +58,8 @@ exports.register = function (req, res) {
                             res.error(err);
                         } else {
                             var template =
-                                "Dear "+user.firstName+", \n\nWe are excited to have you onboard our community. To complete your registration, please click the following link: "+Config.activationLink+user._id
-                                + " If the above link/button does not work, please use your Web browser to go to: " +Config.activationLink+user._id+
+                                "Dear "+user.firstName+", \n\nWe are excited to have you onboard our community.<br> To complete your registration, please click the following link: <a href='http://api.parentof.com/activate/"+Config.activationLink+user._id
+                                + "'>Activate </a> <br>If the above link/button does not work, please use your Web browser to go to: http://api.parentof.com/activate/" +Config.activationLink+user._id+
                                 "\nYour Username is: "+user.email+
                                 "\nYour friends at Parentof"
 
@@ -134,12 +134,11 @@ exports.activate = function(req, res){
             data.isActivated = true;
             data.save(function(){
                 res.writeHead(302, {
-                    'Location': Config.postActivation+ '?refer='+ data.referredBy
+                    'Location': Config.postActivation+ '?refer='+ data.id
                     //add other headers here...
                 });
                 res.end();
             })
-
         }
 
     })

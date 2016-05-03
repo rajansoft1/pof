@@ -141,7 +141,7 @@ parentOf.controller('registrationCtrl', function ($scope, hlRestangular, $state,
                     })
                 }
                 else{
-
+                    notify('referral id is not correct')
                 }
             })
         }
@@ -159,7 +159,7 @@ parentOf.controller('loginCtrl', function ($scope, hlRestangular, $state, localS
         hlRestangular.one("user").one('login').customPOST($scope.user).then(function (res) {
             console.log(res)
             if (res.data._id) {
-
+                localStorageService.set('user', res.data)
                 $state.go('home')
 
             }
