@@ -1,6 +1,6 @@
 <div style="margin: auto; width: 70%;" ng-controller="questionsCtrl">
     <div ng-show="!token" >
-    <div  ng-repeat="question in questions track by $index">
+    <div ng-show="answered.length == 0"  ng-repeat="question in questions track by $index">
         <div>{{$index + 1}}. {{question.question}}</div>
         <div>
             <ul class="ul-question">
@@ -16,7 +16,7 @@
         </div>
 
     </div>
-    <button class="btn btn-info" ng-show="!token" ng-click="submit()">Submit</button>
+    <button ng-show="answered.length == 0" class="btn btn-info" ng-show="!token" ng-click="submit()">Submit</button>
     </div>
     <div ng-show="(answered.length > 0) && !token"><h2>Thank you for  completing the test, you will receive an email once the report is ready.</h2>
     </div>

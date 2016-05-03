@@ -569,6 +569,12 @@ parentOf.controller('questionsCtrl', function ($scope, hlRestangular, localStora
     })
 
     $scope.submit = function () {
+        for(var i=0; i< $scope.questions.length; i++){
+            if($scope.questions[i].answer == ""){
+                alert('please answer all questions');
+                return;
+            }
+        }
         hlRestangular.one('user').one('questions').customPOST({
             email: localStorageService.get('user').email,
             questions: $scope.questions
