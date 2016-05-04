@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/views/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73926866" vertical-offset="255" max-vertical-offset="1290">
-              <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1290">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/api/config/env/development.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -125,23 +125,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/views/activate.html">
+      <file leaf-file-name="pe_iq_sample (3).json" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/pe_iq_sample (3).json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state vertical-scroll-proportion="5.7843137" vertical-offset="329950" max-vertical-offset="467580">
+              <caret line="22623" column="23" selection-start-line="22623" selection-start-column="23" selection-end-line="22623" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#!!block;n#shutter_family#0;n#!!block;n#717#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#module#0;n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#718#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#719#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#720#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#721#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#hardware#0;n#!!block;n#755#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#589#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#585#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#hardware#0;n#!!block;n#406#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3420">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43644717" vertical-offset="630" max-vertical-offset="3420">
+              <caret line="61" column="169" selection-start-line="61" selection-start-column="169" selection-end-line="61" selection-end-column="169" />
               <folding />
             </state>
           </provider>
@@ -172,11 +182,11 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/app/views/register.html" />
         <option value="$PROJECT_DIR$/web/app/views/activate.html" />
-        <option value="$PROJECT_DIR$/api/app/controllers/userCtrl.js" />
         <option value="$PROJECT_DIR$/web/app/views/questionDone.html" />
         <option value="$PROJECT_DIR$/web/app/views/question.html" />
         <option value="$PROJECT_DIR$/web/app.js" />
         <option value="$PROJECT_DIR$/web/app/views/login.html" />
+        <option value="$PROJECT_DIR$/api/app/controllers/userCtrl.js" />
       </list>
     </option>
   </component>
@@ -417,7 +427,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/shutter-family-design-core (1).json" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pe_iq_sample (3).json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -699,7 +709,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1155">
           <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +756,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,28 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5350318" vertical-offset="2325" max-vertical-offset="1633410">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/pe_iq_sample (3).json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="467130">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#717#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#module#0;n#!!block;n#717#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#shutter_family#0;n#!!block;n#717#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#module#0;n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#718#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#719#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#720#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#721#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#755#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#hardware#0;n#!!block;n#755#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#589#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#585#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +883,7 @@
         <state vertical-scroll-proportion="-4.9583335" vertical-offset="1126" max-vertical-offset="1755">
           <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,14 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3420">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/views/questionDone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
@@ -925,14 +905,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,14 +916,6 @@
             <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/env/development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73926866" vertical-offset="255" max-vertical-offset="1290">
-          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -1000,6 +964,50 @@
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pe_iq_sample (3).json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.7843137" vertical-offset="329950" max-vertical-offset="467580">
+          <caret line="22623" column="23" selection-start-line="22623" selection-start-column="23" selection-end-line="22623" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#shutter_family#0;n#!!block;n#717#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#module#0;n#!!block;n#716#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#718#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#719#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#720#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#721#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#hardware#0;n#!!block;n#755#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#589#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#585#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#hardware#0;n#!!block;n#406#0;n#!!block;n#modules#0;n#!!block;n#18#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/env/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/userCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43644717" vertical-offset="630" max-vertical-offset="3420">
+          <caret line="61" column="169" selection-start-line="61" selection-start-column="169" selection-end-line="61" selection-end-column="169" />
+          <folding />
         </state>
       </provider>
     </entry>
