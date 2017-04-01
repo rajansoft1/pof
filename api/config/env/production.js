@@ -1,9 +1,7 @@
 module.exports = {
     // Development configuration options
-    sessionSecret: 'intialQuoteProduction',
-    db: 'mongodb://localhost/quoteCalculatorProd',
-    getClientDetail: 'http://apps.homelane.com/webapi/customers/aG9tZWxhbmVvZmZsaW5lY2F0YWxvZw==/info?email=',
-    getClientBucket: 'http://artifactservice.homelane.com/v1/customers/',
+    sessionSecret: 'e',
+    db: 'mongodb://localhost/er',
     log: {
         // Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
         format: 'prod',
